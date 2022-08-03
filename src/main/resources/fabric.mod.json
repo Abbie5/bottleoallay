@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bottleoallay",
+  "version": "${version}",
+  "name": "Bottle o' Allay",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bottleoallay/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cc.abbie.bottleoallay.BottleOAllay"
+    ]
+  },
+  "mixins": [
+    "bottleoallay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
