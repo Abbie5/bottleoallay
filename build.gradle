@@ -26,6 +26,9 @@ dependencies {
 
     // polymer
     modImplementation include("eu.pb4:polymer:${project.polymer_version}")
+
+    // server-side translations
+    modImplementation include("fr.catcore:server-translations-api:${project.stapi_version}")
 }
 
 processResources {
